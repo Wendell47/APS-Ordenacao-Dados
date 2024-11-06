@@ -1,0 +1,30 @@
+{
+	// Use o IntelliSense para saber mais sobre os atributos possíveis.
+	// Focalizar para exibir as descrições dos atributos existentes.
+	// Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "app",
+			"request": "launch",
+			"mainClass": "app",
+			"projectName": "APS-Ordenacao-Dados_bc38ac2c"
+		},
+		{
+			"type": "java",
+			"name": "SortingComparisonApp",
+			"request": "launch",
+			"mainClass": "SortingComparisonApp",
+			"projectName": "APS-Ordenacao-Dados_bc38ac2c"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "Debug",
+			"program": "${workspaceFolder}/<executable file>",
+			"args": [],
+			"cwd": "${workspaceFolder}"
+		}
+	]
+}

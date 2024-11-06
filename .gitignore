@@ -1,0 +1,17 @@
+# Ignore arquivos de build
+/bin/
+/build/
+/out/
+
+# Ignore arquivos de IDE
+.classpath
+.project
+.settings/
+
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignore dependências de bibliotecas
+/lib/
+/target/
