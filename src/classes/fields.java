@@ -1,12 +1,11 @@
+package classes;
 import java.util.List;
-
 import javax.swing.JTextArea;
-import javax.swing.JTextField;
-
+import components.TextField;
 public abstract class fields {
     
-    JTextField minRangeField;
-     JTextField maxRangeField;
+     TextField minRangeField;
+     TextField maxRangeField;
      JTextArea resultArea;
      SortingAlgorithms sortingAlgorithms;
      List<Integer> generatedNumbers;

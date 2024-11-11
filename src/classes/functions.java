@@ -1,12 +1,13 @@
+package classes;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import javax.swing.JTextArea;
-import javax.swing.JTextField;
 
+import components.TextField;
 public class functions extends fields {
  
-    public functions( JTextField minRangeField,JTextField maxRangeField, JTextArea resultArea, SortingAlgorithms sortingAlgorithms,List<Integer> generatedNumbers){
+    public functions( TextField minRangeField,TextField maxRangeField, JTextArea resultArea, SortingAlgorithms sortingAlgorithms,List<Integer> generatedNumbers){
         this.generatedNumbers=generatedNumbers;
         this.maxRangeField=maxRangeField;
         this.minRangeField=minRangeField;
